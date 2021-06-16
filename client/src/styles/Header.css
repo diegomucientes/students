@@ -1,0 +1,87 @@
+.wrapper{
+    width:100rem;
+    
+}
+h1{
+    color:darkblue;
+    
+}
+main{
+    display: grid;
+    grid-template-rows:1fr 0.1fr 1fr;
+    grid-template-columns:repeat(3,1fr);
+}
+.foto{
+    width:30rem;
+    height:30rem;
+    grid-column:1/2;
+}
+.foto1{
+    width:30rem;
+    height:30rem;
+    grid-column:2/3;
+}
+.foto2{
+    width:30rem;
+    height:30rem;
+    grid-column:3/4;
+}
+.foto3{
+    width:30rem;
+    height:30rem;
+    grid-column:1/2;
+    grid-row:3/4;
+}
+.foto4{
+    width:30rem;
+    height:30rem;
+    grid-column:2/3;
+    grid-row:3/4;
+}
+.foto5{
+    width:30rem;
+    height:30rem;
+    grid-column:3/4;
+    grid-row:3/4;
+}
+.login{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:indigo;
+    border:2px solid black ;
+    grid-column:2/3;
+    grid-row:2/3;
+    width:10rem;
+    height:10rem;
+    gap:2rem;
+    border-radius: 20%;
+    padding:1rem;
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+
+}
+.register{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    border:2px solid black ;
+    grid-column:3/4;
+    grid-row:2/3;
+    width:10rem;
+    height:10rem;
+    gap:2rem;
+    border-radius: 20%;
+    padding:1rem;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

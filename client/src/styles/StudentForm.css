@@ -1,0 +1,36 @@
+.form{
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(6,1fr);
+    width:100rem;
+    border:2px solid black;
+}
+label{
+    width:30rem;
+    color:white;
+}
+.campo{
+    width:50rem;
+    border-radius: 10px;
+    height:3rem;
+    text-align: center;
+}
+.Nombre{
+    grid-row:1/2;
+    
+}
+.Curso{
+    grid-row:2/3;
+}
+.Condicion{
+    grid-row:3/4;
+}
+.NumeroPadre{
+    grid-row:4/5;
+}
+.NumeroMadre{
+    grid-row:5/6;
+}
+.Buttons{
+    grid-row:6/7;
+}
